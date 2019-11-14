@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:#494949;
+    font-size: 15px;
+}
+body{
+    margin:0 auto;
+    max-width: 540px;
+    min-width: 320px;
+    background-color: #fff;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.more{
+    float: right;
+    color:#42bd56;
+}
+.clear:after{
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clear{
+    zoom: 1;
+}
